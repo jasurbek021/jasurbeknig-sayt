@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.car {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.car a {
+  color: inherit;
+}
+
+.menu {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://storage.kun.uz/source/4/7KNO02i-iNRrKZK3G6u4_pTMf-IQ0mld.jpg);
+}
+
+.Nexia-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://s.auto.drom.ru/i24207/c/photos/fullsize/daewoo/nexia/daewoo_nexia_695410.jpg);
+}
+
+.Gentra {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://repost.uz/storage/uploads/24464992-1642658506-mursyaev-post-material.png);
+  }
+
+.Kobalt {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://avto-ravon.ru/wp-content/uploads/2019/03/Ravon-Cobalt-3-737x321.jpg);
+}
+
+.menu h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.city h2 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 24px;
+}
